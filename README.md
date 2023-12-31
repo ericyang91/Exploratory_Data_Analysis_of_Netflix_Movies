@@ -94,7 +94,7 @@ Ha = There is a significant relationship between the genre of the Netflix conten
 </br>
 </br>
 
-## Chi-Squared Test of Independence:
+## Dashboard:
 
 A snippet of the [Tableau interactive Dashboard](https://public.tableau.com/app/profile/ji.yeol.yang/viz/NetflixGenreDashboard/Dashboard1):
 </br></br>
