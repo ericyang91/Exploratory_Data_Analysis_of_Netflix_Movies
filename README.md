@@ -13,10 +13,10 @@ In conclusion, this project not only contributes to a deeper understanding of gl
 
 ## DataFrame:
 
-A quick snapshot of the DataFrame:
+A quick snapshot of the raw DataFrame:
 </br></br>
 <p align="center">
-  <img src="https://github.com/ericyang91/Study_of_the_Efficacy_of_Different_Anti-Cancer_Treatments/blob/main/Images/rawdata.png" alt="rawdata"/>
+  <img src="https://github.com/ericyang91/Netflix_Content_Distribution_and_Trends/tree/main/images/raw.png" alt="rawdata"/>
 </p></br>
 
 ## Summary Statistics:
