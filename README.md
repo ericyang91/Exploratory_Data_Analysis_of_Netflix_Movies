@@ -16,101 +16,129 @@ In conclusion, this project not only contributes to a deeper understanding of gl
 A quick snapshot of the raw DataFrame:
 </br></br>
 <p align="center">
-  <img src="https://github.com/ericyang91/Netflix_Content_Distribution_and_Trends/tree/main/images/raw.png" alt="rawdata"/>
+  <img src="https://github.com/ericyang91/Netflix_Content_Distribution_and_Trends/blob/main/images/raw.png" alt="rawdata"/>
 </p></br>
 
-## Summary Statistics:
+Below are the steps I took to clean the data:
+- Filtered for movies only
+- Dropped unnecessary columns and renamed the columns of interest
+- Dropped null values
+- Categorized minor genres under 'Other'
+- Separated 'Date Added' column to 'Year Added' and 'Month Added'
+- Dropped Year '2021' as we only had partial data
+
+
+## Number of Contents for each Genre:
 </br>
 </br>
 <p align="center">
-  <img src="https://github.com/ericyang91/Study_of_the_Efficacy_of_Different_Anti-Cancer_Treatments/blob/main/Images/summarystatistics.png" alt="summarystatistics"/>
+  <img src="https://github.com/ericyang91/Netflix_Content_Distribution_and_Trends/blob/main/images/genre.png" alt="genre"/>
 </p>
 </br>
 
-`Capomulin` and `Ramicane` emerge as the most effective in diminishing tumor volume among the mice samples. The minimal variance in sizes under these two regimens, coupled with the smallest standard errors, suggests a heightened level of precision and consistency in their impact. This implies a more uniform and reliable response to treatment within these groups, reinforcing the notion that Capomulin and Ramicane showcase notable effectiveness in consistently reducing tumor sizes across the studied mice samples. These findings underscore the potential significance of these regimens for further exploration and potential clinical applications.
+Between the years 2008 and 2020, the genre that witnessed the highest volume of movie releases was 'Dramas,' making it the most prolific category during this period. In contrast, the genre with the least number of movie releases was 'International Movies,' indicating a comparatively lower frequency of production and distribution within the specified timeframe. This observed trend underscores the significant prominence of dramas in the cinematic landscape, while also highlighting the relatively modest representation of international films during the analyzed period.
 
 </br>
 </br>
 
-## Number of Timepoints for each Regimen:
+## Number of Contents Trend:
 </br>
 <p align="center">
-  <img src="https://github.com/ericyang91/Study_of_the_Efficacy_of_Different_Anti-Cancer_Treatments/blob/main/Images/numberoftimepoints.png" alt="numberoftimepoints"/>
+  <img src="https://github.com/ericyang91/Netflix_Content_Distribution_and_Trends/blob/main/images/moviecount.png" alt="moviecount"/>
 </p>
 </br>
 
-The bar graph illustrates that the study has a greater number of timepoints allocated to the drug regimens `Ramicane` and `Ketapril`, while the regimen `Zoniferol` has the fewest number of timepoints.
+Commencing from the year 2016, there was a remarkable and exponential surge in the quantity of movies added to the platform. This upward trajectory reached its zenith in 2019, experiencing a peak in the influx of new content. However, the momentum exhibited a slight deceleration in 2020, with a discernible but marginal reduction in the number of movies added. This intriguing pattern suggests a dynamic evolution in the expansion of the platform's content library, characterized by a rapid ascent, a pinnacle in 2019, and a subsequent modest tapering off in the subsequent year.
 
 </br>
 </br>
 
-## Sex Distribution of Specimen:
+## Average Number of Contents Released each Month:
 </br></br>
 <p align="center">
-  <img src="https://github.com/ericyang91/Study_of_the_Efficacy_of_Different_Anti-Cancer_Treatments/blob/main/Images/sexdistribution.png" alt="sexdistribution"/>
+  <img src="https://github.com/ericyang91/Netflix_Content_Distribution_and_Trends/blob/main/images/monthlyaverage.png" alt="monthlyaverage"/>
 </p></br>
-The pie chart shows that we have a balanced distribution of male and female mice samples. This could imply that the researchers researchers aimed to minimize the impact of sex-related variables, making it easier to attribute observed effects to the treatments rather than potential gender biases. It's worth noting that such considerations in experimental design are essential for robust and reliable scientific findings, as they help control for potential confounding factors and enhance the generalizability of the results.
+When examining the average monthly patterns of movie additions, it becomes evident that both March and January stand out as the months with the highest influx of new content. These particular months consistently demonstrate a notable surge in the introduction of movies to the platform, suggesting a propensity for heightened activity in content acquisition during these periods. On the contrary, February emerges as the month with the least number of movie additions, showcasing a relative lull or subdued pace in the augmentation of the platform's cinematic repertoire. This observed variability across the months underscores the dynamic nature of content release strategies, with certain months exhibiting robust growth while others experience a more measured addition of movies to the streaming platform.
 </br></br>
 
-## Line Graph Showing Changes in Tumor Volume Across the Timepoints for each Regimen:
+## Movie Distribution by Geography:
 </br>
 <p align="center">
-  <img src="https://github.com/ericyang91/Study_of_the_Efficacy_of_Different_Anti-Cancer_Treatments/blob/main/Images/tumordrugregimen.png" alt="tumordrugregimen"/>
-</p></br>
-
-Only two drugs - `Capomulin` and `Ramicane` - shows efficacy in decreasing the tumor volume in the mice sample. All the other drugs do not appear to have any effect in decreasing the tumor volume.
-
-</br>
-</br>
-
-## Box Plot of the Best Regimens by Mean Tumor Volume:
-</br></br>
-<p align="center">
-  <img src="https://github.com/ericyang91/Study_of_the_Efficacy_of_Different_Anti-Cancer_Treatments/blob/main/Images/boxplot.png" alt="boxplot"/>
+  <img src="https://github.com/ericyang91/Netflix_Content_Distribution_and_Trends/blob/main/images/country.png" alt="country"/>
 </p></br>
 
-There is one outlier under the drug regimen, `Infubinol`. This could imply several things including measurement error, biological variation, response heterogeneity, or drug resistance or ineffectivenes. Further investigation is required if the outlier raises concerns or questions about the validity of the data or the effectiveness of the drug regimen.
+The preeminent contributor to the cinematic landscape during the specified timeframe was the United States, substantiating its position as the primary source of movie content. Following closely in the global cinematic tapestry were India, the United Kingdom, and Canada, each making substantial contributions to the diverse array of films available. This hierarchical distribution of movie contributions underscores the multinational nature of content availability on the platform, with the United States leading the way, followed by other significant film-producing nations such as India, the United Kingdom, and Canada. This collaborative amalgamation of cinematic offerings from these diverse regions contributes to the rich and multifaceted content tapestry that characterizes the streaming platform's global appeal.
 
 </br>
 </br>
 
-## Capomulin Treatment: Average Tumor Volume vs. Average Weight:
+## Top 6 Contributors:
 </br></br>
 <p align="center">
-  <img src="https://github.com/ericyang91/Study_of_the_Efficacy_of_Different_Anti-Cancer_Treatments/blob/main/Images/corr.png" alt="correlation"/>
+  <img src="https://github.com/ericyang91/Netflix_Content_Distribution_and_Trends/blob/main/images/topsix.png" alt="topsix"/>
 </p></br>
+</br>
+</br>
 
-## Linear Regression:
+## Chi-Squared Test of Independence:
+
+The Chi squared test of independence is used to explore the relationship between two categorical variables - genre and geography.
+
+Ho = There is no significant relationship between the genre of the Netflix contents and the countries that added them.
+
+Ha = There is a significant relationship between the genre of the Netflix contents and the countries that added them.
 </br></br>
 <p align="center">
-  <img src="https://github.com/ericyang91/Study_of_the_Efficacy_of_Different_Anti-Cancer_Treatments/blob/main/Images/linregress.png" alt="linregress"/>
-</p></br></br>
+  <img src="https://github.com/ericyang91/Netflix_Content_Distribution_and_Trends/blob/main/images/chi2.png" alt="chi2"/>
+</p></br>
+</br>
+</br>
 
-- `Slope (Coefficient)`: The slope of the regression line is approximately 0.9544. This value indicates the change in tumor volume (dependent variable) for each unit increase in mouse weight (independent variable). In this case, as mouse weight increases, the tumor volume is expected to increase by approximately 0.9544 units.
+## Chi-Squared Test of Independence:
 
-- `Intercept`: The intercept of the regression line is approximately 21.5522. This is the value of the tumor volume when the mouse weight is zero. In practical terms, it might not have a meaningful interpretation in this context, as a mouse weight of zero is not meaningful in the context of this analysis.
-
-- `Correlation Coefficient (rvalue)`: The correlation coefficient is approximately 0.8419. This value measures the strength and direction of the linear relationship between mouse weight and tumor volume. A positive value indicates a positive correlation, meaning that as mouse weight increases, tumor volume tends to increase.
-
-- `P-Value`: The p-value is very small (1.322e-07), suggesting that the observed correlation is statistically significant. This means there is strong evidence to reject the null hypothesis that there is no correlation between mouse weight and tumor volume.
-
-- `Standard Error (stderr)`: The standard error of the slope is approximately 0.1275. It represents the standard deviation of the sampling distribution of the slope. A lower standard error indicates more precision in estimating the slope.
-
-- `Coefficient of Determination (R-Squared)`: The coefficient of determination, or R-Squared, is approximately 0.7089. This value represents the proportion of the variance in the dependent variable (tumor volume) that is predictable from the independent variable (mouse weight). An R-Squared of 0.7089 indicates that about 70.89% of the variability in tumor volume can be explained by the linear regression model using mouse weight.
-
-
+A snippet of the [Tableau interactive Dashboard](https://public.tableau.com/app/profile/ji.yeol.yang/viz/NetflixGenreDashboard/Dashboard1):
+</br></br>
+<p align="center">
+  <img src="https://github.com/ericyang91/Netflix_Content_Distribution_and_Trends/blob/main/images/dashboard.png" alt="dashboard"/>
+</p></br>
+</br>
+</br>
 
 ## Summary:
 </br>
 
-- According to Summary Statistics, the four treatment regimens with the lowest mean tumor volume (mm3) in test subjects are Ramicane, Capomulin, Ceftamin, and Infubinol.
-- According to Summary Statistics, the four treatment regimens with the lowest standard deviation of tumor volume (mm3) in test subjects are Ramicane, Capomulin, Ceftamin, and Infubinol.
-- According to Summary Statistics, the four treatment regimens with the lowest standard error of means of tumor volume (mm3) in test subjects are Ramicane, Capomulin, Ceftamin, and Infubinol, suggesting the reliability of subjects.
-- Not all subjects reacted well to Capomulin. An example is subject r157 that showed an increase in tumor volume (mm3) during the course of Capomulin treatment.
-- The heavier the mouse, the less effective is Capomulin as depicted by the scatter plot.
-- Linear regression shows R-squared value of 0.7, which suggests a reliable relationship between the subject's weight and Capomulin's effectiveness.
-</br>
-** The study shows that Capomulin's effectiveness on cancer treatment is only matched by that of Ramicane, but far surpasses those of Ceftamin and Infubinol. The effectiveness of Capomulin is influenced by the subject's weight, with lighter subjects reacting better to the treatment. **
+This Netflix project analyzed the content available on the platform, focusing on various aspects such as genre distribution, temporal trends, regional contributions, and the relationship between geography and genre. Here are the key findings:
+
+`Genre Distribution:`
+
+The most prevalent genre on Netflix is "Drama," having the highest count among all genres.
+
+
+`Temporal Trends:`
+
+Netflix experienced the highest growth in content in 2019, indicating a consistent audience demand for contents.
+The number of added contents peaked in 2019 and saw a slight decrease in 2020.
+
+`Monthly Trends:`
+
+On average, February is the month with the least number of content additions.
+March stands out as the month with the highest average number of content additions, indicating a potential pattern in seasonal releases or strategic scheduling.
+
+`Regional Contributions:`
+
+The United States led in contributing the most number of contents to Netflix, showcasing a significant presence in the platform's content library.
+In the USA, the genre "Documentary" had the highest count of additions, with "Drama" following closely.
+
+`International Contributions:`
+
+India emerged as a notable contributor to Netflix content, securing the runner-up position in terms of the number of contents added.
+In India, "Drama" was the dominant genre with the highest count of additions.
+
+`Chi-Squared Test of Independence:`
+
+The chi-squared test of independence revealed a significant relationship between geography (country) and genre, suggesting that the distribution of genres varies significantly across different regions.
+
+This comprehensive analysis provides insights into the dynamic landscape of Netflix content, highlighting the dominance of certain genres, temporal patterns, and the influence of geographical factors on content preferences.
 
 </br>
 </br>
