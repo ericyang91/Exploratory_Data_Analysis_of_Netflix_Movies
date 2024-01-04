@@ -149,3 +149,6 @@ This comprehensive analysis provides insights into the dynamic landscape of Netf
 ![Matplotlib](https://img.shields.io/badge/matplotlib-3776AB?style=flat&logo=matplotlib&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-3776AB?style=flat&logo=jupyter&logoColor=white)
 ![VS Code](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)
+
